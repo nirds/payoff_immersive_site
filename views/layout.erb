@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Payoff Ruby Immersive</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="page-header">
+          <h1>Payoff Ruby Immersive</h1>
+          <nav class="navbar navbar-default navbar-inverse">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li><a href="/">Syllabus</a></li>
+                <li><a href="/day0">Day 0</a></li>
+                <li><a href="/day1">Day 1</a></li>
+                <li><a href="/day2">Day 2</a></li>
+                <li><a href="/day3">Day 3</a></li>
+                <li><a href="/day4">Day 4</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+<%=yield%>
+
+      <footer class="panel-footer">
+        <div class="container-fluid">
+          <p>All materials &copy NIRD, LLC 2015</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
